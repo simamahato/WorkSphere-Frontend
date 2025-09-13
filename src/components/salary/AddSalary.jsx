@@ -38,7 +38,7 @@ const AddSalary = () => {
         e.preventDefault()
 
         try{
-            const response = await axios.post(`http://localhost:5000/api/salary/addSalary`, salary, {
+            const response = await axios.post(`https://worksphere-backend.vercel.app/api/salary/addSalary`, salary, {
             headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
             },
