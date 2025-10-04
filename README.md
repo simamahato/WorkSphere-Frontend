@@ -13,6 +13,7 @@ Pass: 123
 
 🚀 Core Features
 🔐 User Authentication
+
  • Secure login and registration with JWT tokens
  
  • Role-based access (Admin / Employee)
@@ -20,36 +21,60 @@ Pass: 123
  • Protected routes for authorized users only
 
 👥 Employee Management
+
  • Add, edit, delete, and view employee profiles
+ 
  • Manage departments and roles
+ 
  • Store personal and work-related employee data
 
 📊 Dashboard & Analytics
+
  • Overview of total employees, attendance, and performance
+ 
  • Real-time data visualization
+ 
  • Responsive layout for all devices
+ 
 
 🔗 API Integration
+
  • RESTful API built with Express.js and MongoDB
+ 
  • Frontend consumes APIs via Axios
+ 
  • Proper status code handling for all responses
 
 ⚙️ Error Handling & Validation
+
  • Centralized error middleware in Express
+ 
  • Client-side input validation using React
+ 
  • Descriptive error messages (401, 404, 500, etc.)
+ 
 
 🌐 Deployment Ready
+
  • Frontend and backend hosted on Vercel
+ 
  • Environment variables configured for production
+ 
  • Continuous deployment via GitHub
+ 
  • Hosted backend: https://worksphere-backend.vercel.app/
+ 
  • Hosted frontend: https://worksphere-frontend-inky.vercel.app/login
+ 
 
 🧩 Scalable Architecture
+
  • Clean folder structure for maintainability
+ 
  • Easy to extend with new modules
+ 
  • Reusable React components and REST endpoints
+ 
 
  | Layer                | Technology                        |
 | -------------------- | ----------------------------------------- |
