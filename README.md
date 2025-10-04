@@ -1,5 +1,3 @@
-<img width="219" height="230" alt="image" src="https://github.com/user-attachments/assets/970fbb4c-e107-4d52-b1af-e814cb84325a" />WorkSphere
-
 WorkSphere is a full-stack web application designed to manage employees, departments, and organizational data efficiently.
 
 Admin login
@@ -16,7 +14,9 @@ Pass: 123
 🚀 Core Features
 🔐 User Authentication
  • Secure login and registration with JWT tokens
+ 
  • Role-based access (Admin / Employee)
+ 
  • Protected routes for authorized users only
 
 👥 Employee Management
