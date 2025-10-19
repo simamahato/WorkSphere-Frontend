@@ -10,8 +10,9 @@ Employee login
 Email: ram@gmail.com
 Pass: 123
 
+---
 
-🚀 Core Features
+## 🚀 Core Features
 🔐 User Authentication
 
  • Secure login and registration with JWT tokens
@@ -20,7 +21,9 @@ Pass: 123
  
  • Protected routes for authorized users only
 
-👥 Employee Management
+ ---
+
+## 👥 Employee Management
 
  • Add, edit, delete, and view employee profiles
  
@@ -28,16 +31,19 @@ Pass: 123
  
  • Store personal and work-related employee data
 
-📊 Dashboard & Analytics
+ ---
+
+## 📊 Dashboard & Analytics
 
  • Overview of total employees, attendance, and performance
  
  • Real-time data visualization
  
  • Responsive layout for all devices
- 
 
-🔗 API Integration
+---
+ 
+## 🔗 API Integration
 
  • RESTful API built with Express.js and MongoDB
  
@@ -45,7 +51,9 @@ Pass: 123
  
  • Proper status code handling for all responses
 
-⚙️ Error Handling & Validation
+---
+
+## ⚙️ Error Handling & Validation
 
  • Centralized error middleware in Express
  
@@ -53,8 +61,9 @@ Pass: 123
  
  • Descriptive error messages (401, 404, 500, etc.)
  
+---
 
-🌐 Deployment Ready
+## 🌐 Deployment Ready
 
  • Frontend and backend hosted on Vercel
  
@@ -66,8 +75,9 @@ Pass: 123
  
  • Hosted frontend: https://worksphere-frontend-inky.vercel.app/login
  
+---
 
-🧩 Scalable Architecture
+## 🧩 Scalable Architecture
 
  • Clean folder structure for maintainability
  
@@ -85,8 +95,9 @@ Pass: 123
 | **State Management** |  Redux or Context API (if added)     |
 | **Authentication**   |  JWT (JSON Web Token)                   |
 
+---
 
-📂 WorkSphere Project Structure
+## 📂 WorkSphere Project Structure
 
 WorkSphere/
 │
@@ -107,8 +118,10 @@ WorkSphere/
     ├── index.js
     ├── .env
     └── package.json
+
+    ---
     
-🧪 Setup Instructions
+## 🧪 Setup Instructions
 
 1. Clone the repo
   git clone https://github.com/simamahato/WorkSphere-Frontend.git
