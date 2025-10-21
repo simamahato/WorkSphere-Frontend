@@ -1,4 +1,6 @@
-WorkSphere is a full-stack web application designed to manage employees, departments, and organizational data efficiently.
+<h1> 💼 WorkSphere</h1>
+
+<h2>WorkSphere is a full-stack web application designed to manage employees, departments, and organizational data efficiently.</h2>
 
 Admin login
 
@@ -13,53 +15,36 @@ Pass: 123
 ---
 
 ## 🚀 Core Features
-🔐 User Authentication
+ 🔐 **User Authentication**
+- Secure login and registration with JWT tokens.
+- Role-based access (Admin / Employee).
+- Protected routes for authorized users only.
 
- • Secure login and registration with JWT tokens
- 
- • Role-based access (Admin / Employee)
- 
- • Protected routes for authorized users only
+ 👥 **Employee Management**
 
- ---
+- Add, edit, delete, and view employee profiles.
+- Manage departments and roles.
+- Store personal and work-related employee data.
 
-## 👥 Employee Management
 
- • Add, edit, delete, and view employee profiles
- 
- • Manage departments and roles
- 
- • Store personal and work-related employee data
+ 📊 **Dashboard & Analytics**
 
- ---
+- Overview of total employees, attendance, and performance.
+- Real-time data visualization.
+- Responsive layout for all devices.
 
-## 📊 Dashboard & Analytics
+🔗 **API Integration**
 
- • Overview of total employees, attendance, and performance
- 
- • Real-time data visualization
- 
- • Responsive layout for all devices
+- RESTful API built with Express.js and MongoDB.
+-  Frontend consumes APIs via Axios.
+- Proper status code handling for all responses.
 
----
- 
-## 🔗 API Integration
 
- • RESTful API built with Express.js and MongoDB
- 
- • Frontend consumes APIs via Axios
- 
- • Proper status code handling for all responses
+ ⚙️ **Error Handling & Validation**
 
----
-
-## ⚙️ Error Handling & Validation
-
- • Centralized error middleware in Express
- 
- • Client-side input validation using React
- 
- • Descriptive error messages (401, 404, 500, etc.)
+ - Centralized error middleware in Express.
+ - Client-side input validation using React.
+ - Descriptive error messages (401, 404, 500, etc).
  
 ---
 
@@ -88,12 +73,11 @@ Pass: 123
 
  | Layer                | Technology                        |
 | -------------------- | ----------------------------------------- |
-| **Frontend**         |  React.js, Ant Design (UI), Axios |
-| **Backend**          |  Node.js, Express.js                 |
-| **Database**         |  MongoDB                                |
-| **Deployment**       |  Vercel (Frontend & Backend)            |
-| **State Management** |  Redux or Context API (if added)     |
-| **Authentication**   |  JWT (JSON Web Token)                   |
+| **Frontend**         |<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> |
+| **Backend**          |  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> |
+| **Database**         | <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> |                                |
+| **Deployment**       |  ▲ Vercel  |
+            
 
 ---
 
@@ -119,39 +103,40 @@ WorkSphere/
     ├── .env
     └── package.json
 
-    ---
+---
     
 ## 🧪 Setup Instructions
 
-1. Clone the repo
-  git clone https://github.com/simamahato/WorkSphere-Frontend.git
+1. **Clone the repo**
+   ```bash
+   
+   git clone https://github.com/simamahato/WorkSphere-Frontend.git
 
-2. Backend Setup
-  • cd server
-  • Install dependencies:
-  • npm install
-  • Create a .env file (example):
+2. **Backend Setup**
+- cd server
+- Install dependencies:
+- npm install
+- **Create a .env file (example):**
       PORT=5000
       MONGO_URI=<your_mongo_connection_string>
       JWT_SECRET=<your_jwt_secret>
-
-   • Start the backend server:
-   • npm run dev    # if using nodemon
+- **Start the backend server:**
+   - npm run dev    # if using nodemon
           # OR
-  • node index.js  # if using plain node
-  Backend should run on http://localhost:5000 (or the port you set).
+   - node index.js  # if using plain node
+   - Backend should run on http://localhost:5000 (or the port you set).
 
-3. Frontend Setup
-  • cd ../EMS/frontend
-  • Install dependencies:
-  • npm install
-  • Start the frontend:
-  • npm run dev
-  • Frontend should run on http://localhost:3000 (or the port Vite assigns).
+3. **Frontend Setup**
+  - cd ../EMS/frontend
+  - Install dependencies:
+  - npm install
+  - Start the frontend:
+  - npm run dev
+  - Frontend should run on http://localhost:3000 (or the port Vite assigns).
 
-4. Test
-  • Open your browser: http://localhost:3000
-  • Ensure API requests from frontend reach backend at http://localhost:5000.
+4. **Test**
+  - Open your browser: http://localhost:3000
+  - Ensure API requests from frontend reach backend at http://localhost:5000.
 
 
 # React + Vite
