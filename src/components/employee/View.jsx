@@ -17,7 +17,7 @@ const View = () => {
         });
         console.log(response.data)
         if(response.data.success) {
-          setEmployee(response.data.employees);
+          setEmployee(response.data.employee);
         }
       } catch(error){
           if(error.response && !error.response.data.success) {
