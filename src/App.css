@@ -1,7 +1,7 @@
 /* Dashboard background (for both admin and employee) */
 .dashboard-container {
   min-height: 100vh;
-  background: url("./Blur.jpg");
+  background: url("/Blur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll; /* Makes it responsive */
