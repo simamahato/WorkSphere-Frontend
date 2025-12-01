@@ -12,6 +12,8 @@
   content: "";
   position: absolute;
   inset: 0;
+  background: url("./Blur.jpg") no-repeat center center;
+
   /* background: rgba(0, 0, 0, 0.4); change opacity as needed */
 }
 
