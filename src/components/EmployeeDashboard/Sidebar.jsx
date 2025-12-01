@@ -6,7 +6,7 @@ import { useAuth } from '../../context/authContext';
 const Sidebar = () => {
     const {user} = useAuth()
   return (
-    <div className="bg-gray-900 text-white h-screen fixed left-0 top-0 bottom-0 space-y-2 w-64">
+    <div className="bg-gray-900 text-white min-h-screen fixed left-0 top-0 bottom-0 space-y-2 w-64">
         <div className='bg-teal-700 h-12 flex items-center justify-center'>
             <h3 className='font-pacific text-2x1 text-center text-white' >Employee MS</h3>
         </div>
