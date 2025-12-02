@@ -1,6 +1,7 @@
 /* Dashboard background (for both admin and employee) */
 .dashboard-container {
   min-height: 100vh;
+  width: 100%;
   background: url("/Blur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,9 +14,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: url("./Blur.jpg") no-repeat center center;
-
-  /* background: rgba(0, 0, 0, 0.4); change opacity as needed */
+   /* background: rgba(0, 0, 0, 0.4); change opacity as needed  */
 }
 
 .dashboard-content {
