@@ -10,8 +10,8 @@ const AdminDashboard = () => {
     
     return ( 
     <div className='flex'>
-        <div className='min-h-screen w-full flex bg-cover bg-center bg-no-repeat' 
-      style={{backgroundImage : `url('/Blur.jpg')` }}></div>
+        {/* <div className='min-h-screen w-full flex bg-cover bg-center bg-no-repeat' 
+      style={{backgroundImage : `url('/Blur.jpg')` }}></div> */}
         <AdminSidebar />
         
         <div className='flex-1 ml-64 bg-gray-100 pt-16 bg-transparent'>
