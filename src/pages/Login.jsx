@@ -36,7 +36,7 @@ const Login = () => {
     };
 
     return(
-      <div className="min-h-screen w-full bg-center bg-cover bg-no-repeat flex items-center justify-center font-sans" 
+      <div className='bg-cover font-sans bg-no-repeat relative z-0 bg-center h-screen' 
       style={{backgroundImage : `url(${' ../waiting.jpg'})` }}>
         <div className=""></div>
         <div className="flex flex-col items-center h-screen justify-center space-y-6" >
